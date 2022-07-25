@@ -1,0 +1,6 @@
+Diamond: C++ supports multiple inheritance
+https://github.com/venu-shastri/design-patterns-summary/blob/main/MultipleInheritance_Problem.png
+Not there in Java and C#
+Given responsiblility to convert to C# or Java
+
+Solve the design.

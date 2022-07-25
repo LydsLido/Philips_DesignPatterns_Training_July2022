@@ -1,0 +1,59 @@
+//C++ Code
+bool batteryIsOk(float temperature, float soc, float chargeRate) {
+  if(temperature < 0 || temperature > 45) {
+    cout << "Temperature out of range!\n";
+    return false;
+  } else if(soc < 20 || soc > 80) {
+    cout << "State of Charge out of range!\n";
+    return false;
+  } else if(chargeRate > 0.8) {
+    cout << "Charge Rate out of range!\n";
+    return false;
+  }
+  return true;
+} 
+
+
+// Lydia - Issues with the above code are listed below:
+// Lydia: batteryIsOk method is taking in 3 parameters and assessing for all 3 - so SRP (Single Responsibility Principle) is violated.
+// Lydia: The method is closed for extension and open for modification
+// Lydia: if any one parameter changes the entire method is impacted.
+// Lydia: Range Values being checked are hard coded.
+// Lydia: Solution to make the method adhere to SRP is as follows:
+// Lydia: Separate the check of temperature to a temperature method and return the result
+// Lydia: Separate the check of soc to soc method and return the result
+// Lydia: Separate the check of chargeRate to chargeRate method and return the result
+// Lydia: Collate the condition of the above 3 and return the final result
+// Lydia: Dont hard code values, declare and define outside  
+
+
+//C++ Code
+
+bool isTemperatureOk(float temperature) {
+    if(temperature < 0 || temperature > 45) {
+       cout << "Temperature out of range!\n";
+       return false;
+    }
+}
+
+bood isSocOk(float soc) {
+    if(soc < 20 || soc > 80) {
+       cout << "State of Charge out of range!\n";
+       return false;
+    }
+}
+
+bood isChargeRateOk(float chargeRate) {
+    if(chargeRate > 0.8) {
+         cout << "Charge Rate out of range!\n";
+         return false;
+    }
+}
+
+
+bool batteryIsOk(float temperature, float soc, float chargeRate) {
+  if(isTemperatureOk(temperature) && isSocOk(soc) && isChargeRateOk(chargeRate))
+     return false;
+  else
+     return true;
+} 

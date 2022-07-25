@@ -1,0 +1,1 @@
+Identify Strategy pattern in your project and submit the UML diagram
