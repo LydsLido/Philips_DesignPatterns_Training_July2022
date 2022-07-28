@@ -1,0 +1,2 @@
+Change / update current design so that new virtual / abstract method can be added to the 
+family without changing classes
