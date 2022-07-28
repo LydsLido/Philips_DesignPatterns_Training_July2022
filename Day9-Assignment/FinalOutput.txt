@@ -1,0 +1,61 @@
+=======================================================================
+=======================================================================
+ ---------------------- Creating 1 Header----------------------
+ ---------------------- Creating 1 Paragraph----------------------
+ ---------------------- Creating 1 Link----------------------
+ ---------------------- Creating 1 Paragraph----------------------
+ ---------------------- Creating 1 Link----------------------
+ ---------------------- Creating 1 Paragraph----------------------
+ ---------------------- Creating 1 Footer----------------------
+=======================================================================
+=======================================================================
+=======================================================================
+In Going to call HTML formatter, simulating customer choice as HTML
+In Header, will call formatter.convert(this)
+********** In HTMLFormatter, will convert Header to HTML Format
+In Paragraph, will call formatter.convert(this)
+********** In HTMLFormatter, will convert Paragraph to HTML Format
+********** In HTMLFormatter, will convert Link to HTML Format
+In Link, will call formatter.convert(this)
+In Paragraph, will call formatter.convert(this)
+********** In HTMLFormatter, will convert Paragraph to HTML Format
+********** In HTMLFormatter, will convert Link to HTML Format
+In Link, will call formatter.convert(this)
+In Paragraph, will call formatter.convert(this)
+********** In HTMLFormatter, will convert Paragraph to HTML Format
+In Footer, will call formatter.convert(this)
+********** In HTMLFormatter, will convert Footer to HTML Format
+=======================================================================
+In Going to call PDF formatter, simulating customer choice as PDF
+In Header, will call formatter.convert(this)
+#################### In PDFFormatter, will convert Header to PDF Format
+In Paragraph, will call formatter.convert(this)
+#################### In PDFFormatter, will convert Paragraph to PDF Format
+#################### In PDFFormatter, will convert Link to PDF Format
+In Link, will call formatter.convert(this)
+In Paragraph, will call formatter.convert(this)
+#################### In PDFFormatter, will convert Paragraph to PDF Format
+#################### In PDFFormatter, will convert Link to PDF Format
+In Link, will call formatter.convert(this)
+In Paragraph, will call formatter.convert(this)
+#################### In PDFFormatter, will convert Paragraph to PDF Format
+In Footer, will call formatter.convert(this)
+#################### In PDFFormatter, will convert Footer to PDF Format
+=======================================================================
+In Going to call RTF formatter, simulating customer choice as RTF
+In Header, will call formatter.convert(this)
+ &&&&&&&&&&&&&&&&&&& In RTFFormatter, will convert Header to RTF Format
+In Paragraph, will call formatter.convert(this)
+ &&&&&&&&&&&&&&&&&&& In RTFFormatter, will convert Paragraph to RTF Format
+ &&&&&&&&&&&&&&&&&&& In RTFFormatter, will convert Link to RTF Format
+In Link, will call formatter.convert(this)
+In Paragraph, will call formatter.convert(this)
+ &&&&&&&&&&&&&&&&&&& In RTFFormatter, will convert Paragraph to RTF Format
+ &&&&&&&&&&&&&&&&&&& In RTFFormatter, will convert Link to RTF Format
+In Link, will call formatter.convert(this)
+In Paragraph, will call formatter.convert(this)
+ &&&&&&&&&&&&&&&&&&& In RTFFormatter, will convert Paragraph to RTF Format
+In Footer, will call formatter.convert(this)
+ &&&&&&&&&&&&&&&&&&& In RTFFormatter, will convert Footer to RTF Format
+=======================================================================
+Press any key to continue . . .
