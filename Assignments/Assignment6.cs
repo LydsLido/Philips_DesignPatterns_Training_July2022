@@ -1,0 +1,14 @@
+
+public class ConcreteCalculator : ICalculator
+{
+    public int Add(int x, int y)
+    {
+        Print("Add(x={0}, y={1})", x, y);
+
+        var addition = x + y;
+
+        Print("result={0}", addition);
+
+        return addition;
+    }
+}

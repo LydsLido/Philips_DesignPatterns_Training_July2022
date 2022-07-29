@@ -1,0 +1,9 @@
+Let us build a sales reporting application for the management of a store with multiple departments. 
+The features of the application include:
+
+Users should be able to select a specific department they are interested in.
+Upon selecting a department, two types of reports are to be displayed:
+Monthly report — A list of all transactions for the current month for the selected department.
+YTD sales chart — A chart showing the year-to-date sales for the selected department by month. 
+Whenever a different department is selected, 
+both reports should be refreshed with the data for the currently selected department
